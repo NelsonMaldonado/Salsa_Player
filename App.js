@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import Task from "./components/Task"
-import VideoPlayer from "./components/video"
+import MusicPlayer from "./components/music"
 import {
   KeyboardAvoidingView,
   StyleSheet,
@@ -33,7 +33,7 @@ export default function App() {
       <View style={styles.tasksWrapper}>
         <Text style={styles.sectionTitle}>Note taker</Text>
         <Text>Write down subjects you would like to review</Text>
-        <VideoPlayer style={styles.videostyle}></VideoPlayer>
+        <MusicPlayer style={styles.videostyle}></MusicPlayer>
 
         <View style={styles.items}>
           {tasktItems.map((item, index) => {
