@@ -4,9 +4,7 @@ import { View, Text, StyleSheet } from "react-native"
 const MusicPlayer = () => {
   return (
     <View>
-      <Text style={styles.videotext}>
-        <h1>This is where music goes live!</h1>
-      </Text>
+      <Text style={styles.videotext}>music</Text>
     </View>
   )
 }
